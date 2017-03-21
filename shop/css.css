@@ -34,65 +34,79 @@ input {border: none;margin: 0;padding: 0;}
 
 .master{ margin: 0 auto; padding: 0;}
 .w{}
+.sm001{ font-size: 12px; color: #CCC; }
+.red{ color: red;}
+.bg_red{background: red;}
+.green{ color: green;}
+.bg_green{background: green;}
+.blue{color:blue;}
+.bg_blue{background: blue;}
+.input_w80{width: 80px;}
 
-.index-main{width: 100%; overflow: hidden; background: #dffa9f;}
+
+
+/**--主菜单---------**/
+.index-main{width: 100%; overflow: hidden; /*background: url("images/zuomian.jpg") no-repeat;background-size:100% 100%;*/}
 .index-main .index-menu{width: 80px; margin: 10px 0px 0px 10px; float: left;}
-.index-main .index-menu li a{width: 100%; height: 100px; display: block; overflow: hidden; color:#000000;}
+.index-main .index-menu li a{width: 100%; height: 100px; display: block; overflow: hidden; color:#000;}
 .index-main .index-menu li a .menu-pic{margin: 0 auto; width: 60px; height:60px; border: 1px solid #CCC; }
 .index-main .index-menu li a .menu-title{margin: 0 auto; width: 60px; display: block;  overflow: hidden; font-size: 12px; text-align: center;  margin-top: 2px; }
 
 
-
-.footer{position: fixed; bottom: 0px; width: 100%; height: 45px;line-height: 45px;background: #000; text-align: center; padding: 4px 0px;}
+/**--底部---------**/
+.footer{position: fixed; bottom: 0px; width: 100%; height: 45px;line-height: 45px;background: #979797; text-align: center; padding: 4px 0px;}
 .footer .footer-butt-l{float: left; width: 120px; /*background:#BE4B4B;*/ text-align: center; border:2px solid #fff; border-radius: 10px;}
 .footer .footer-butt-l a{width: 1000%; height: 100%; font-size: 18px; font-weight: bold; color: #fff;}
 .footer .footer-title{margin: 0 auto; text-align: center; font-size: 14px; font-weight: bold; color: #fff;}
 .footer .footer-butt-r{float: right; width:80px; text-align: center; border:2px solid #fff; border-radius: 10px; margin-right: 0px; }
 .footer .footer-butt-r a{width: 1000%; height: 100%; font-size: 18px; font-weight: bold; color: #fff; cursor: pointer;}
 
+/**--底部功能导航---------**/
 .menu-gongneng ul.nav1{width: 120px;position: absolute;bottom: 53px; right:0px;}
 .menu-gongneng ul li{height:35px;border-bottom:1px solid #fff; }
-.menu-gongneng ul li a{height:100%;width: 100%; text-align: center; line-height: 35px; display: block; color: #fff;background: #000;overflow: hidden;}
+.menu-gongneng ul li a{height:100%;width: 100%; text-align: center; line-height: 35px; display: block; color: #fff;background: #979797;overflow: hidden;}
 
-.menu-gongneng li ul.sub_nav{position: relative; right:121px;}
-
-
+.menu-gongneng li ul.sub_nav{position: relative; right:120px; border-right: 1px solid #fff;}
 
 
+/**-- 二级页面 ---------**/
+/*.bg-main{background: #000; width: 100%; height: 100%; position: absolute; top: 0px; filter:alpha(opacity=60);-moz-opacity:0.6; -khtml-opacity: 0.6; opacity: 0.6;}*/
+.sub-page{margin: 0 auto; width: 100%; margin-bottom: 50px;}
+.sub-page .header-top{background:#979797; padding: 5px 0px; color: #fff;}
+.sub-page .header-top h2{ background:url("images/01.png") no-repeat 7px 6px;padding: 10px 0px 10px 54px;color: #fff; font-weight: bold; font-size: 23px;}
+.sub-page .header-top h2 .head-add{ float: right; font-size: 14px;margin: 10px 40px 0px 0px;}
+.sub-page .header-top h2 .head-add a{border: 1px solid #fff; padding: 5px 3px; color: #fff; margin-left: 10px;}
+.sub-page .header-top .condition{ padding: 5px 0px 5px 6px; font-size: 16px; font-weight: bold;}
+.sub-page .header-top .condition ul li{width:100%; margin-bottom: 5px; float: left;}
+.sub-page .header-top .condition ul li input{border: 1px solid #fff; padding: 3px 5px; border-radius: 5px; }
+.sub-page .header-top .condition ul li .butt{ padding:0px 11px; height: 25px; margin-left: 10px; cursor: pointer; }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*----列表页面--------------------*/
+.sub-page  .tb-cn{margin: 0px;}
+.sub-page  .tb-cn table tr td{padding: 10px 0px; text-align: center;}
+.sub-page  .tb-cn table tr td{border-bottom: 1px solid #CCC; font-size: 14px;}
 
 
 
+/*----添加页面--------------------*/
+.add-mod{ margin-top: 20px;}
+.add-mod ul li{float: left; width: 100%; border-bottom: 1px dashed #e5e5e5; padding: 10px 0px;margin:5px 0px; background: #eff8f0; }
+.add-mod ul li input{padding: 5px 3px; border: 1px solid #CACACA; width: 200px;}
+.add-mod ul li span.t001{ margin-left:10px; display: block; float: left; margin-right: 10px;}
+.add-mod ul li.button{background:none;  border:none; border-top:1px solid #e5e5e5;  margin-top:35px;padding-left:10px; }
+.add-mod ul li.button .sub-mit{text-align: center;padding: 2px 19px;font-size: 16px;font-weight: bold; color: #555; cursor: pointer; border-radius: 5px; border: 1px solid #ccc;}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*----登录页面--------------------*/
+.login-page{margin: 0 auto;background:#979797; position: absolute; top: 0px; width: 100%;}
+.login-page .login-page-c{margin: 0 auto; width: 350px; height: 250px;  border: 2px solid #fff; position: relative; top:30%; }
+.login-page .login-page-c h2{ color: #fff; font-weight: bold; font-size: 25px; border-bottom:1px solid #fff;text-align: center;padding: 15px 0px;}
+.login-page .condition{ padding-top: 15px;}
+.login-page .condition ul li{width: 100%; padding: 7px 0px;}
+.login-page .condition ul li span{ display: block; float: left; width: 95px; text-align: right; color: #fff; font-weight: bold; font-size: 19px;}
+.login-page .condition ul li input{padding: 5px 3px; border: 1px solid #CACACA; width: 180px;}
+.login-page .condition ul li button{text-align: center;padding: 4px 51px;font-size: 16px;font-weight: bold; color: #555; cursor: pointer; border-radius: 5px; border: 1px solid #ccc; margin-left: 96px;}
+.login-page .condition ul li a{ padding: 4px; border: 1px solid #fff;margin-left: 10px;}
 
 
 

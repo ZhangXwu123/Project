@@ -1,6 +1,7 @@
 $(function(){
     var windheight = $(window).height();
     $(".index-main").css({"height":(windheight-45)});
+    $(".login-page").css({"height":(windheight)});
     menu_ul();
     click_gongneng();
 });
@@ -53,11 +54,13 @@ function click_gongneng(OB){
                 $(this).find(".sub_nav").removeClass("hide");
                 $(this).find(".sub_nav").addClass("hide");
             });
-            $("body").not(".menu-gongneng").not(".footer-butt-r").click(function(){
-                alert();
+            
+            $(".menu-gongneng").mouseleave(function(){
                 $(".menu-gongneng").removeClass("hide");
                 $(".menu-gongneng").addClass("hide");
             });
+            
+            
             
     }else{
             $(".menu-gongneng").removeClass("hide");
