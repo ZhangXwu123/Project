@@ -46,9 +46,9 @@ input {border: none;margin: 0;padding: 0;}
 
 
 /**--主菜单---------**/
-.index-main{width: 100%; overflow: hidden; /*background: url("images/zuomian.jpg") no-repeat;background-size:100% 100%;*/}
+.index-main{width: 100%; overflow: hidden; background: url("images/zuomian.jpg") no-repeat;background-size:100% 100%;}
 .index-main .index-menu{width: 80px; margin: 10px 0px 0px 10px; float: left;}
-.index-main .index-menu li a{width: 100%; height: 100px; display: block; overflow: hidden; color:#000;}
+.index-main .index-menu li a{width: 100%; height: 100px; display: block; overflow: hidden; color:#fff;}
 .index-main .index-menu li a .menu-pic{margin: 0 auto; width: 60px; height:60px; border: 1px solid #CCC; }
 .index-main .index-menu li a .menu-title{margin: 0 auto; width: 60px; display: block;  overflow: hidden; font-size: 12px; text-align: center;  margin-top: 2px; }
 
